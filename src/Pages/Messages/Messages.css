@@ -1,0 +1,54 @@
+.all-messages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.all-messages-container > h3 {
+  margin-bottom: 2rem;
+}
+
+.all-messages-contentt {
+  /* background-color: rgba(0, 0, 255, 0.11); */
+  width: 50%;
+  text-align: start;
+  height: 300px;
+  border: 2px solid black;
+  overflow-x: scroll;
+}
+.all-message-subject-every {
+  /* background-color: red; */
+  margin-bottom: 0.5rem;
+}
+.all-message-text-every {
+  margin-bottom: 1rem;
+}
+.all-message-every{ 
+    cursor: pointer;
+}
+.read {
+  background: lightblue;
+  cursor: pointer;
+}
+.button-container-h {
+  width: 50%;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button-logout-p {
+  background-color: blue;
+  height: 50px;
+  width: 30%;
+  border: none;
+  color: white;
+  cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+  /* text-align: center; */
+  /* text-align: justify; */
+}

@@ -1,0 +1,8 @@
+.button-logout {
+  background-color: blue;
+  height: 50px;
+  width: 30%;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
